@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/Картинки/i.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="/Styles/style.css" />
+    <link rel="stylesheet" href="/Styles/reset.css">
+    <title>HTML Урок 7 - Блочная модель и фон</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 class="heading">Всем привет! Изучаем блочную модель CSS</h1>
+      </header>
+
+      <main class="main-content">
+        <!-- Секция 1 -->
+        <section class="content-section section-1">
+          <h2 class="section-title">Секция 1: Блоки и инлайн-элементы</h2>
+          <div class="content-wrapper">
+            <p class="content-block block-style">
+              Далеко-далеко за словесными горами в стране гласных и согласных, живут
+              рыбные тексты. Предупреждал предложения грустный даль вскоре, проектах
+              гор рукописи скатился единственное использовало lorem но свою однажды
+              что наш букв если ему текстов продолжил не буквоград семантика коварный.
+              Текст приставка свою там.
+            </p>
+            <span class="content-inline inline-style">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt magnam
+              corporis illum ex repellendus. Laborum, dolorum! Obcaecati unde mollitia
+              ipsa quas expedita aliquid laudantium ex temporibus totam tempora error
+              in ullam quae amet modi, vel quo? Magni a laborum recusandae eaque
+              corporis vero, deleniti quaerat quia voluptatem illo praesentium fuga?
+            </span>
+          </div>
+        </section>
+
+        <!-- Квадрат и изображение -->
+        <div class="visual-elements">
+          <div class="square">
+            <p class="square-size">250x250</p>
+          </div>
+          <img
+            class="styled-image"
+            src="/images/ac7dcb3dadbf2c37e2d8a1e8a2231890.jpg"
+            alt="Декоративное изображение"
+            width="300"
+            height="300"
+          />
+        </div>
+
+        <address class="signature">Michael.J.</address>
+        <hr class="divider" />
+
+        <!-- Секция 2 -->
+        <section class="content-section section-2">
+          <h2 class="section-title">Секция 2: Обертки и тени текста</h2>
+          <div class="content-wrapper">
+            <div class="block-wrapper">
+              <p class="content-block block-style block-2">
+                Далеко-далеко за словесными горами в стране гласных и согласных, живут
+                рыбные тексты. Предупреждал предложения грустный даль вскоре, проектах
+                гор рукописи скатился единственное использовало lorem но свою однажды
+                что наш букв если ему текстов продолжил не буквоград семантика
+                коварный. Текст приставка свою там.
+              </p>
+            </div>
+            <span class="content-inline inline-style inline-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt magnam
+              corporis illum ex repellendus. Laborum, dolorum! Obcaecati unde mollitia
+              ipsa quas expedita aliquid laudantium ex temporibus totam tempora error
+              in ullam quae amet modi, vel quo? Magni a laborum recusandae eaque
+              corporis vero, deleniti quaerat quia voluptatem illo praesentium fuga?
+            </span>
+          </div>
+        </section>
+
+        <hr class="divider" />
+
+        <!-- Секция 3 -->
+        <section class="content-section section-3">
+          <h2 class="section-title">Секция 3: Overflow и размеры</h2>
+          <div class="content-wrapper">
+            <p class="content-block block-style block-3">
+              Далеко-далеко за словесными горами в стране гласных и согласных, живут
+              рыбные тексты. Предупреждал предложения грустный даль вскоре, проектах
+              гор рукописи скатился единственное использовало lorem но свою однажды
+              что наш букв если ему текстов продолжил не буквоград семантика коварный.
+              Текст приставка свою там.
+            </p>
+            <div class="blocks-row">
+              <div class="color-block block-3a"></div>
+              <div class="color-block block-3b"></div>
+            </div>
+            <span class="content-inline inline-style inline-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt magnam
+              corporis illum ex repellendus. Laborum, dolorum! Obcaecati unde mollitia
+              ipsa quas expedita aliquid laudantium ex temporibus totam tempora error
+              in ullam quae amet modi, vel quo? Magni a laborum recusandae eaque
+              corporis vero, deleniti quaerat quia voluptatem illo praesentium fuga?
+            </span>
+            <img
+              class="styled-image image-3"
+              src="/images/ac7dcb3dadbf2c37e2d8a1e8a2231890.jpg"
+              alt="Изображение с ограничениями"
+              width="300"
+              height="300"
+            />
+          </div>
+        </section>
+
+        <hr class="divider" />
+
+        <!-- Секция 4 -->
+        <section class="content-section section-4">
+          <h2 class="section-title">Секция 4: Границы и тени блоков</h2>
+          <div class="content-wrapper">
+            <p class="content-block block-style block-4">
+              Далеко-далеко за словесными горами в стране гласных и согласных, живут
+              рыбные тексты. Предупреждал предложения грустный даль вскоре, проектах
+              гор рукописи скатился единственное использовало lorem но свою однажды
+              что наш букв если ему текстов продолжил не буквоград семантика коварный.
+              Текст приставка свою там.
+            </p>
+            <span class="content-inline inline-style inline-4">
+              Этот текст имеет тень и прозрачность. Далеко-далеко за словесными горами в стране.
+            </span>
+            <img
+              class="styled-image image-4"
+              src="/images/ac7dcb3dadbf2c37e2d8a1e8a2231890.jpg"
+              alt="Изображение с рамкой"
+              width="300"
+              height="300"
+            />
+          </div>
+        </section>
+
+        <hr class="divider" />
+
+        <!-- Секция 5 с фиксированным фоном и скроллом -->
+        <section class="content-section section-5">
+          <h2 class="section-title">Секция 5: Фиксированный фон + скролл</h2>
+          <div class="parallax-container">
+            <div class="parallax-content">
+              <div class="text-overlay">
+                <h3 class="parallax-title">Параллакс эффект</h3>
+                <p class="parallax-text">
+                  Этот блок имеет фиксированный фон и скроллится отдельно от основного контента.
+                  Попробуйте прокрутить вниз чтобы увидеть эффект!
+                </p>
+                <div class="scroll-indicator">↓ Скролл вниз ↓</div>
+              </div>
+              
+              <!-- Длинный контент для скролла -->
+              <div class="scrollable-content">
+                <div class="scroll-item">
+                  <h4>Часть 1</h4>
+                  <p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.</p>
+                </div>
+                <div class="scroll-item">
+                  <h4>Часть 2</h4>
+                  <p>Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана.</p>
+                </div>
+                <div class="scroll-item">
+                  <h4>Часть 3</h4>
+                  <p>Маленький ручеек Даль журчит по всей стране и обеспечивает ее всеми необходимыми правилами.</p>
+                </div>
+                <div class="scroll-item">
+                  <h4>Часть 4</h4>
+                  <p>Эта парадигматическая страна, в которой жаренные члены предложения залетают прямо в рот.</p>
+                </div>
+                <div class="scroll-item">
+                  <h4>Часть 5</h4>
+                  <p>Даже всемогущая пунктуация не имеет власти над рыбными текстами, ведущими безорфографичный образ жизни.</p>
+                </div>
+                <div class="scroll-item">
+                  <h4>Часть 6</h4>
+                  <p>Однажды одна маленькая строчка рыбного текста по имени Lorem ipsum решила выйти в большой мир грамматики.</p>
+                </div>
+                <div class="scroll-item">
+                  <h4>Часть 7</h4>
+                  <p>Великий Оксмокс предупреждал ее о злых запятых, диких знаках вопроса и коварных точках с запятой.</p>
+                </div>
+                <div class="scroll-item">
+                  <h4>Часть 8</h4>
+                  <p>Но текст не дал сбить себя с толку. Он собрал семь своих заглавных букв, подпоясал инициал.</p>
+                </div>
+                <div class="scroll-item">
+                  <h4>Часть 9</h4>
+                  <p>Переписывается оно несколько раз. Свою, безорфографичный лучше, оксмокс путь переулка алфавит?</p>
+                </div>
+                <div class="scroll-item">
+                  <h4>Часть 10</h4>
+                  <p>Скатился подзаголовок вскоре, силуэт составитель вершину ведущими однажды взобравшись свою?</p>
+                </div>
+                <div class="end-marker">
+                  <p>🏁 Конец скролла! Фон оставался фиксированным 🎉</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <hr class="divider" />
+<!-- /* <-------------------------------------------------->
+        <div class="wrapper">
+          <h1 class="study">Hello WORLD!</h1>
+          <div class="researche"> </div>
+        </div>
+      </main>
+
+
+        <hr class="divider" />
+<!-- /* <-------------------------------------------------->
+
+     <div class="wrapper-1">
+        <div class="container-1">
+          <div class="block-red"></div>
+          <div class="block-blue"></div>
+          <div class="block-orange"></div>
+          <div class="block-green"></div>
+          <div class="block-purple"></div>
+        </div>
+      </div>
+
+
+      <hr class="divider" />
+<!-- /* <-------------------------------------------------->
+
+      <div class="translate">
+        <div class="container-3">
+          <h2 class="translate__title">Translate</h2>
+          <div class="translate__blocks">
+            <div class="translate__red red"></div>
+            <div class="translate__blue blue"></div>
+          </div>
+        </div>
+      </div>
+      <div class="line"></div>
+
+      <div class="rotate">
+        <div class="container-3">
+          <h2 class="rotate__title">Rotate</h2>
+          <div class="rotate__blocks">
+            <div class="rotate__red red"></div>
+            <div class="rotate__blue blue"></div>
+          </div>
+        </div>
+      </div>
+      <div class="line"></div>
+
+      <div class="scale">
+        <div class="container-3">
+          <h2 class="scale__title">Scale</h2>
+          <div class="scale__blocks">
+            <div class="scale__red red"></div>
+            <div class="scale__blue blue"></div>
+          </div>
+        </div>
+      </div>
+      <div class="line"></div>
+
+      <div class="skew">
+        <div class="container-3">
+          <h2 class="skew__title">Skew</h2>
+          <div class="skew__blocks">
+            <div class="skew__red red"></div>
+            <div class="skew__blue blue"></div>
+          </div>
+        </div>
+      </div>
+
+
+      <hr class="divider" />
+<!-- /* <-------------------------------------------------->
+      <div class="transition-container">
+        <div class="transition-block">
+          <div class="button"> Transition </div>
+        </div>
+        <div class="transition-block_color">
+          <div class="block pink"></div>
+          <div class="block blueviolet"></div>
+          <div class="block orange"></div>
+          <div class="block green"></div>
+        </div>
+      </div>
+
+
+      <hr class="divider" />
+<!-- /* <-------------------------------------------------->
+      <div class="wrapper-5">
+        <div class="container-5">
+          <div class="block-5">
+            <div class="greenyellow"></div>
+            <div class="palevioletred"></div>
+          </div>
+        </div>
+      </div>
+
+
+        <hr class="divider" />
+<!-- /* <-------------------------------------------------->
+      <div class="flexbox">
+        <div class="flexbox__item">
+          <div class="flexbox__item-content">1</div>
+        </div>
+        <div class="flexbox__item">
+          <div class="flexbox__item-content">2</div>
+        </div>
+        <div class="flexbox__item">
+          <div class="flexbox__item-content">3</div>
+        </div>
+      </div>
+      <div class="legend-container">
+        <div class="legend">
+          <div class="legend__color legend__color--f"></div>
+          <span class="legend__contant legend__contant--f"> Флексбокс</ы>
+        </div>
+        <div class="legend">
+          <div class="legend__color legend__color--i"></div>
+          <span class="legend__contant legend__contant--i"> Элементы флексбокса</ы>
+        </div>
+        <div class="legend">
+          <div class="legend__color legend__color--c"></div>
+          <span class="legend__contant legend__contant--c"> Контент</ы>
+        </div>
+      </div>
+
+
+        <hr class="divider" />
+<!-- /* <-------------------------------------------------->
+
+      <div class="loader-cool">
+        <div class="cool-dot"></div>
+        <div class="cool-dot"></div>
+        <div class="cool-dot"></div>
+      </div>
+
+      
+        <hr class="divider" />
+<!-- /* <-------------------------------------------------->
+
+      <div class="loading-2">
+        <div class="wirl-dot"></div>
+        <div class="wirl-dot"></div>
+        <div class="wirl-dot"></div>
+        <div class="wirl-dot"></div>
+      </div>
+
+
+         <hr class="divider" />
+<!-- /* <-------------------------------------------------->
+
+      <div class="box">
+        <div class="box__item">
+          <div class="box__item-content">1</div>
+        </div>
+        <div class="box__item">
+          <div class="box__item-content">2</div>
+        </div>
+        <div class="box__item">
+          <div class="box__item-content">3</div>
+        </div>
+      </div>
+
+
+        <hr class="divider" />
+<!-- /* <-------------------------------------------------->
+
+      <div class="strip">
+        <div class="circle">
+          <div class="circle__text"></div>
+        </div>
+      </div>
+
+        <hr class="divider" />
+<!-- /* <-------------------------------------------------->
+
+      <div class="wrapper-6">
+        <!-- Грид для демонстрации колонок и строк-->
+        <div class="grid">
+          <div class="grid-1__text Paragraph">#1 Грид для демонстрации колонок и строк</div>
+          <div class="container-6">
+            <div class="grid-1">
+              <div class="grid-1__item grid-1__item--1 item">1</div>
+              <div class="grid-1__item grid-1__item--2 item">2</div>
+              <div class="grid-1__item grid-1__item--3 item">3</div>
+              <div class="grid-1__item grid-1__item--4 item">4</div>
+              <div class="grid-1__item grid-1__item--5 item">5</div>
+              <div class="grid-1__item grid-1__item--6 item">6</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="strip-1"></div>
+
+      <!-- Грид для демонстрации областей-->
+        <div class="grid">
+          <div class="grid-2__text Paragraph">#2 Грид для демонстрации областей</div>
+          <div class="container-6">
+            <div class="grid-2">
+              <div class="grid-2__item--header item">header</div>
+              <div class="grid-2__item--main item">main</div>
+              <div class="grid-2__item--aside item">aside</div>
+              <div class="grid-2__item--footer item">footer</footer></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="strip-1"></div>
+
+      <!-- Грид для демонстрации неявной сетки-->
+        <div class="grid">
+          <div class="grid-3__text Paragraph">#3 Грид для демонстрации неявной сетки</div>
+          <div class="container-6">
+            <div class="grid-3">
+              <div class="grid-3__item item">1</div>
+              <div class="grid-3__item item">2</div>
+              <div class="grid-3__item item">3</div>
+              <div class="grid-3__item item">4</div>
+              <div class="grid-3__item item">5</div>
+              <div class="grid-3__item grid-3__item--6  item">6</div>
+              <div class="grid-3__item item">7</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="strip-1"></div>
+
+      <!-- Грид для демонстрации работы конкретно с элементами-->
+        <div class="grid">
+          <div class="grid-4__text Paragraph">#4 Грид для демонстрации неявной сетки</div>
+          <div class="container-6">
+            <div class="grid-4">
+              <div class="grid-4__item--1 item">1</div>
+              <div class="grid-4__item--2 item">2</div>
+              <div class="grid-4__item--3 item">3</div>
+              <div class="grid-4__item--4 item">4</div>
+              <div class="grid-4__item--5 item">5</div>
+              <div class="grid-4__item--6 item">6</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+        <hr class="divider" />
+<!-- /* <-------------------------------------------------->
+
+<div class="wrapper-7">
+  <div class="container-7">
+      <a class="link-7" href="https://vk.ru/" target="_blank" rel="noopener noreferrer"> Here you have link</a>
+      <br>
+      <input class="input-7" type="text">
+      <button class="button-7" type="button"> And here's the button</button>
+  </div>
+  <div class="container-7">
+    <ul class="list-7">
+      <li class="list-item">Далеко-далеко за словесными горами в стране гласных.</li>
+      <li class="list-item">Далеко-далеко за словесными горами в стране гласных.</li>
+      <li class="list-item">Далеко-далеко за словесными горами в стране гласных.</li>
+      <li class="list-item">Далеко-далеко за словесными горами в стране гласных.</li>
+      <li class="list-item">Далеко-далеко за словесными горами в стране гласных.</li>
+      <li class="list-item">Далеко-далеко за словесными горами в стране гласных.</li>
+      <li class="list-item">Далеко-далеко за словесными горами в стране гласных.</li>
+      <li class="list-item">Далеко-далеко за словесными горами в стране гласных.</li>
+      <li class="list-item">Далеко-далеко за словесными горами в стране гласных.</li>
+      <li class="list-item">Далеко-далеко за словесными горами в стране гласных.</li>
+    </ul>
+    <div class="block-7">
+      <div class="block__title">Заголовок</div>
+      <div class="block_item-7">Lorem, ipsum dolor.</div>
+      <div class="block_item-7">Lorem, ipsum dolor.</div>
+      <div class="block_item-7">Lorem, ipsum dolor.</div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+        <hr class="divider" />
+<!-- /* <-------------------------------------------------->
+
+<div class="wrapper-8">
+  <div class="container-8">
+    <div class="block-wrapper-8">
+      <div class="block-8">
+        <div class="text-block-8">100x100</div>
+      </div>
+    </div>
+    <ul class="list">
+      <li class="list-item-8">Далеко-далеко за словесными горами в стране.</li>
+      <li class="list-item-8">Далеко-далеко за словесными горами в стране.</li>
+              <li class="list-item-8">Далеко-далеко за словесными горами в стране.</li>
+        <li li class="list-item-8">Далеко-далеко за словесными горами в стране.</li>
+      <li class="list-item-8">Далеко-далеко за словесными горами в стране.</li>
+    </ul>
+    <div class="block-psevdo">
+      <a class="link-8" href="#">Изучить CSS</a>
+      <div class="button-8" type="button"></div>
+    </div>
+    <p class="text-8">Далеко-далеко, за словесными горами в стране гласных и согласных живут рыбные тексты. Рукописи над языкового ты деревни? Заманивший жаренные грамматики взобравшись напоивший.</p>
+  </div>
+</div>
+        <hr class="divider" />
+<!-- /* <-------------------------------------------------->
+
+<div class="wrapper-9">
+  <div class="block-9">
+    <div class="grid-q">Далеко-далеко за словесными горами в стране.</div>
+    <div class="grid-a">Далеко-далеко за словесными горами в стране.</div>
+    <div class="grid-z">Далеко-далеко за словесными горами в стране.</div>
+    <div class="grid-x">Далеко-далеко за словесными горами в стране.</div>
+    <div class="grid-c">Далеко-далеко за словесными горами в стране.</div>
+    <div class="grid-v">Далеко-далеко за словесными горами в стране.</div>
+  </div>
+</div>
+
+
+
+
+        <hr class="divider" />
+<!-- /* <-------------------------------------------------->
+      </div>
+    </div>
+  </body>
+</html>
