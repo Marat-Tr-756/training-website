@@ -329,7 +329,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: url("/Картинки/421beee855600cdb187e84c9669c2227.jpg") center / cover no-repeat;
+    background: url("Картинки/421beee855600cdb187e84c9669c2227.jpg") center / cover no-repeat;
     z-index: -1;
     min-height: 100%;
 }
@@ -507,7 +507,7 @@ text-align: center;
 } 
 
 .researche {
-   background: url("/images/DIY-3D-Diamond-Mosaic-Animal-Leopard-Handmade-Diamond-Painting-Cross-Stitch-Kits-Diamond-Embroidery-Patterns-Rhinestones.jpg") left 10% center / 35% no-repeat, url("/images/1c7f6ff29df0777ebfa4d6b46a49ed0912_resize_640x480_fill_ffffff_64b002.jpg") right 10% center / 35% no-repeat, rgba(122, 55, 199, 0.9);
+   background: url("Картинки/DIY-3D-Diamond-Mosaic-Animal-Leopard-Handmade-Diamond-Painting-Cross-Stitch-Kits-Diamond-Embroidery-Patterns-Rhinestones.jpg") left 10% center / 35% no-repeat, url("/images/1c7f6ff29df0777ebfa4d6b46a49ed0912_resize_640x480_fill_ffffff_64b002.jpg") right 10% center / 35% no-repeat, rgba(122, 55, 199, 0.9);
    /* Размеры контейнера */
    width: 100%;
    height: 330px;
@@ -1589,7 +1589,7 @@ text-align: center;
 }
 
 .link-8:hover::after {
-    background-image: url(/images/arrow.jpg);
+    background-image: url(Картинки/arrow.jpg);
 }
 
 .text-8::first-letter {
@@ -1649,7 +1649,7 @@ text-align: center;
     width: 3rem;
     height: 3rem;
     display: inline-block;
-    background-image: url(/images/heart.jpg);
+    background-image: url(Картинки/heart.jpg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -1657,7 +1657,7 @@ text-align: center;
 }
 
 .button-8:active::after {
-    background-image: url(/images/heart2.jpg);
+    background-image: url(Картинки/heart2.jpg);
 }
 
 .block-psevdo {
